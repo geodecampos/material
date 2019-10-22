@@ -124,21 +124,21 @@
   "buffers": [
     {
       "byteLength": 87648,
-      "uri": "scene.bin"
+      "uri": "https://raw.githubusercontent.com/geodecampos/material/master/cp3/scene.bin"
     }
   ],
   "images": [
     {
-      "uri": "textures/blinn1_baseColor.jpeg"
+      "uri": "https://raw.githubusercontent.com/geodecampos/material/master/cp3/textures/blinn1_baseColor.jpeg"
     },
     {
-      "uri": "textures/blinn1_metallicRoughness.png"
+      "uri": "https://raw.githubusercontent.com/geodecampos/material/master/cp3/textures/blinn1_metallicRoughness.png"
     },
     {
-      "uri": "textures/blinn1_emissive.jpeg"
+      "uri": "https://raw.githubusercontent.com/geodecampos/material/master/cp3/textures/blinn1_emissive.jpeg"
     },
     {
-      "uri": "textures/blinn1_normal.png"
+      "uri": "https://raw.githubusercontent.com/geodecampos/material/master/cp3/textures/blinn1_normal.png"
     }
   ],
   "materials": [

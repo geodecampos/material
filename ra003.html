@@ -1,0 +1,26 @@
+<head>
+<script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+<script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+</head>
+
+<body style='margin : 0px; overflow: hidden;'>
+	<!--Superpoblación-->
+<a-scene embedded="" vr-mode-ui="enabled: false" arjs="sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;">
+
+
+  <a-marker type='barcode' value='6'  id="aframe-scene" position="" rotation="" scale="" visible="" material="" arjs-anchor="" arjs-hit-testing="">    
+    <a-image id="test" src="0supP1.png" position="-1 0 0" rotation="-45 0 0" width="" height="" opacity="1" transparent="true" alpha-test="0.2" shader="standard" scale="2 2 2" visible="" material="" geometry=""></a-image>
+</a-marker>
+
+<!--Crecimiento de las ciudades-->
+<a-marker preset="hiro" id="aframe-scene1" position="" rotation="" scale="" visible="" material="" arjs-anchor="" arjs-hit-testing="">    
+    <a-image id="test1" src="2urb.png" position="-1 0 0" rotation="-45 0 0" width="" height="" opacity="1" transparent="true" alpha-test="0.2" shader="standard" scale="2 2 2" visible="" material="" geometry=""></a-image>
+</a-marker>
+
+<!--Perdida de vida vegetal-->
+<a-marker  id="aframe-scene2" preset="kanji" position="" rotation="" scale="" visible="" material="" arjs-anchor="" arjs-hit-testing="">    
+    <a-image id="test2" src="3def.jpg" position="-1 0 0" rotation="-45 0 0" width="" height="" opacity="1" transparent="true" alpha-test="0.2" shader="standard" scale="2 2 2" visible="" material="" geometry=""></a-image>
+</a-marker>
+
+
+</a-scene>
